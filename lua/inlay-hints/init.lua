@@ -35,7 +35,7 @@ function M.setup(opts)
     inlay.set()
   end
   M.set_all = function()
-    inlay.set()
+    inlay.set_all()
   end
   M.unset = function()
     inlay.unset()
